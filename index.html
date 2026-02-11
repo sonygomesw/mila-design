@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MILA DESIGN is an interior design studio dedicated to creating unique spaces."/>
+    <title>MILA DESIGN - Studio de design</title>
+
+    <link rel='stylesheet' href='https://mk27.com/wp-content/themes/twentytwenty/assets/css/font-inter.css?ver=1.0.0' media='all'/>
+    <script src="https://mk27.com/wp-content/themes/twentytwenty-child/js/jquery-3.5.1.min.js"></script>
+
+    <style>
+    @font-face {
+        font-family: 'CustomFont';
+        src: url('fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2') format('woff2');
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+        font-family: 'CustomFont', "Inter", sans-serif;
+        background-color: #fff;
+        color: #000;
+    }
+
+    a { text-decoration: none; color: inherit; }
+
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 0 40px;
+    }
+
+    .navbar-logo {
+        position: absolute;
+        left: 20px;
+    }
+
+    .navbar-logo img {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+    }
+
+    .navbar-center {
+        display: flex;
+        gap: 30px;
+    }
+
+    .navbar-center a {
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .navbar-center a:hover {
+        color: #999;
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .project-item {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        min-height: 350px;
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .project-item:hover {
+        filter: grayscale(0%);
+    }
+
+    .project-text {
+        text-align: center;
+        color: #fff;
+    }
+
+    .project-text .name {
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .project-text .subtitle {
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 8px 0 0 0;
+    }
+
+    @media (max-width: 768px) {
+        .project-item {
+            height: 40vh;
+            min-height: 280px;
+            padding-bottom: 30px;
+        }
+        .project-text .name {
+            font-size: 1rem;
+        }
+    }
+
+    .hidden { display: none; }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="MILA DESIGN">
+            </a>
+        </div>
+        <div class="navbar-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <!-- Projects -->
+    <div class="projects-grid">
+        <a class="project-item" href="costa-brava.html" style="background-image: url(images/costa-brava.jpg);">
+            <div class="project-text">
+                <h2 class="name">Costa Brava</h2>
+                <p class="subtitle">Project</p>
+            </div>
+        </a>
+
+        <a class="project-item" href="riviera.html" style="background-image: url(images/riviera.png);">
+            <div class="project-text">
+                <h2 class="name">Riviera Miami Beach</h2>
+                <p class="subtitle">Project</p>
+            </div>
+        </a>
+
+        <a class="project-item" href="boca-raton.html" style="background-image: url(images/boca-raton.jpg);">
+            <div class="project-text">
+                <h2 class="name">Boca Raton</h2>
+                <p class="subtitle">Project</p>
+            </div>
+        </a>
+
+        <a class="project-item" href="blue-diamond.html" style="background-image: url(images/blue-diamond.png);">
+            <div class="project-text">
+                <h2 class="name">Blue Diamond 3401</h2>
+                <p class="subtitle">Project</p>
+            </div>
+        </a>
+
+        <a class="project-item" href="william-island.html" style="background-image: url(images/william-island.png);">
+            <div class="project-text">
+                <h2 class="name">William Island</h2>
+                <p class="subtitle">Project</p>
+            </div>
+        </a>
+    </div>
+
+</body>
+</html>
