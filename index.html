@@ -143,6 +143,37 @@
 
     .hidden { display: none; }
     </style>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const model = document.getElementById('thinker-model');
+        const navLinks = document.querySelectorAll('.navbar-center a');
+        let oscillateInterval;
+
+        function oscillate() {
+            let angle = 0;
+            let direction = 1;
+
+            oscillateInterval = setInterval(() => {
+                angle += direction * 5;
+                if (angle >= 30) direction = -1;
+                if (angle <= -30) direction = 1;
+
+                model.setAttribute('camera-orbit', angle + 'deg 75deg 2m');
+            }, 50);
+        }
+
+        function stopOscillate() {
+            clearInterval(oscillateInterval);
+            model.setAttribute('camera-orbit', '0deg 75deg 2m');
+        }
+
+        navLinks.forEach(link => {
+            link.addEventListener('mouseenter', oscillate);
+            link.addEventListener('mouseleave', stopOscillate);
+        });
+    });
+    </script>
 </head>
 
 <body>
@@ -151,17 +182,20 @@
     <nav class="navbar">
         <div class="navbar-logo">
             <a href="index.html">
-                <model-viewer src="images/rodin_thinker_v2.0.glb"
-                              auto-rotate
+                <model-viewer id="thinker-model"
+                              src="images/rodin_thinker_v2.0.glb"
                               camera-controls
+                              camera-orbit="0deg 75deg 2m"
+                              exposure="1.5"
+                              shadow-intensity="1"
                               style="background-color: transparent;">
                 </model-viewer>
             </a>
         </div>
         <div class="navbar-center">
+            <a href="index.html">Home</a>
             <a href="projects.html">Interior Design</a>
             <a href="art.html">Art</a>
-            <a href="index.html">Home</a>
             <a href="about.html">About</a>
         </div>
     </nav>
