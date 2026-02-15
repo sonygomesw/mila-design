@@ -9,6 +9,7 @@
     <link rel='stylesheet' href='https://mk27.com/wp-content/themes/twentytwenty/assets/css/font-inter.css?ver=1.0.0' media='all'/>
 
     <script src="https://mk27.com/wp-content/themes/twentytwenty-child/js/jquery-3.5.1.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
 
     <style>
     @font-face {
@@ -31,8 +32,8 @@
         background-color: #000; display: flex; align-items: center;
         justify-content: center; z-index: 10000; padding: 0 40px;
     }
-    .navbar-logo { position: absolute; left: 20px; }
-    .navbar-logo img { width: 55px; height: 55px; object-fit: cover; }
+    .navbar-logo { position: absolute; left: 20px; width: 80px; height: 80px; }
+    .navbar-logo model-viewer { width: 100%; height: 100%; }
     .navbar-center { display: flex; gap: 30px; }
     .navbar-center a { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: #fff; padding: 8px 12px; transition: all 0.3s ease; }
     .navbar-center a:hover { background-color: #fff; color: #000; }
@@ -68,7 +69,11 @@
 
 <body>
     <nav class="navbar">
-        <div class="navbar-logo"><a href="index.html"><img src="images/logo.jpg" alt="MILA DESIGN"></a></div>
+        <div class="navbar-logo"><a href="index.html"><model-viewer src="images/rodin_thinker_v2.0.glb"
+                              auto-rotate
+                              camera-controls
+                              style="background-color: transparent;">
+                </model-viewer></a></div>
         <div class="navbar-center"><a href="projects.html">Interior Design</a><a href="art.html">Art</a><a href="index.html">Home</a><a href="about.html">About</a></div>
     </nav>
 
