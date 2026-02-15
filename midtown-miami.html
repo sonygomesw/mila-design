@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midtown Miami - MILA DESIGN</title>
+
+    <link href="https://mk27.com/wp-content/themes/twentytwenty-child/css/hamburgers.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://mk27.com/wp-content/themes/twentytwenty/assets/css/font-inter.css?ver=1.0.0' media='all'/>
+    <link rel="stylesheet" type="text/css" href="https://mk27.com/wp-content/themes/twentytwenty-child/js/slick.css"/>
+
+    <script src="https://mk27.com/wp-content/themes/twentytwenty-child/js/jquery-3.5.1.min.js"></script>
+    <script src="https://mk27.com/wp-content/themes/twentytwenty-child/js/slick.min.js"></script>
+
+    <style>
+    @font-face {
+        font-family: 'CustomFont';
+        src: url('fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'CustomFont', "Inter", sans-serif;
+        background-color: #000;
+        color: #fff;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* Navbar */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 0 40px;
+    }
+
+    .navbar-logo {
+        position: absolute;
+        left: 20px;
+    }
+
+    .navbar-logo img {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+    }
+
+    .navbar-center {
+        display: flex;
+        gap: 30px;
+    }
+
+    .navbar-center a {
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .navbar-center a:hover {
+        color: #999;
+    }
+
+    /* Page layout */
+    .page-wrapper {
+        display: flex;
+        min-height: 100vh;
+        padding-top: 100px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .gallery-section {
+        flex: 0 0 60%;
+        max-width: 60%;
+        padding: 30px;
+    }
+
+    .info-section {
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding: 30px 40px;
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+
+    /* Gallery */
+    .img-gallery {
+        width: 100%;
+        position: relative;
+    }
+
+    .img-gallery-container {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-gallery-container img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .gallery-arrows {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        pointer-events: none;
+    }
+
+    .gallery-arrow {
+        pointer-events: auto;
+        background: rgba(255,255,255,0.2);
+        border: none;
+        color: #fff;
+        font-size: 2rem;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .gallery-arrow:hover {
+        background: rgba(255,255,255,0.4);
+    }
+
+    .img-gallery-nav {
+        margin-top: 15px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .img-gallery-thumb {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+    }
+
+    .img-gallery-thumb:hover,
+    .img-gallery-thumb.active {
+        opacity: 1;
+    }
+
+    /* Info */
+    .project-title {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .project-info {
+        font-size: 1.4rem;
+        line-height: 2;
+        color: #ccc;
+    }
+
+    .project-info p {
+        margin-bottom: 5px;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+        .page-wrapper {
+            flex-direction: column;
+            padding-top: 70px;
+        }
+
+        .gallery-section,
+        .info-section {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .info-section {
+            padding: 30px 20px;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+        }
+    }
+
+    .hidden { display: none; }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="MILA DESIGN">
+            </a>
+        </div>
+        <div class="navbar-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <!-- Contenu -->
+    <div class="page-wrapper">
+        <div class="gallery-section">
+            <div class="img-gallery">
+                <div class="img-gallery-container">
+                    <img id="main-image" src="images/midtown-miami/1.jpg" alt="Midtown Miami">
+                </div>
+                <div class="gallery-arrows">
+                    <button class="gallery-arrow" id="prev-btn">&#10094;</button>
+                    <button class="gallery-arrow" id="next-btn">&#10095;</button>
+                </div>
+            </div>
+            <div class="img-gallery-nav">
+                <div class="img-gallery-thumb active" style="background-image: url(images/midtown-miami/1.jpg);" data-img="images/midtown-miami/1.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/2.jpg);" data-img="images/midtown-miami/2.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/3.jpg);" data-img="images/midtown-miami/3.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/4.jpg);" data-img="images/midtown-miami/4.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/5.jpg);" data-img="images/midtown-miami/5.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/6.jpg);" data-img="images/midtown-miami/6.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/7.jpg);" data-img="images/midtown-miami/7.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/8.jpg);" data-img="images/midtown-miami/8.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/9.jpg);" data-img="images/midtown-miami/9.jpg"></div>
+                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/10.jpg);" data-img="images/midtown-miami/10.jpg"></div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h1 class="project-title">Midtown Miami</h1>
+            <div class="project-info">
+                <p><strong>Location: Midtown Miami</strong></p>
+                <p></p>
+                <p>Mila Design Team's latest interior captures a refined blend of calm luxury and practical sophistication. The space unfolds with warm, dark wood tones, streamlined built-ins, and a generous, sunlit panorama that turns every moment into a serene experience. Thoughtful shelving and shoe wardrobes meet at clean, architectural lines, while natural light pours in to accentuate the material palette and the meticulous craftsmanship. The result is a minimalist yet inviting atmosphere that speaks of precision, collaboration, and elevated living.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    $(document).ready(function() {
+        var currentIndex = 0;
+        var thumbs = $('.img-gallery-thumb');
+        var total = thumbs.length;
+
+        function showImage(index) {
+            if (index < 0) index = total - 1;
+            if (index >= total) index = 0;
+            currentIndex = index;
+            var imgSrc = thumbs.eq(index).data('img');
+            $('#main-image').attr('src', imgSrc);
+            thumbs.removeClass('active');
+            thumbs.eq(index).addClass('active');
+        }
+
+        $('.img-gallery-thumb').on('click', function() {
+            currentIndex = thumbs.index(this);
+            showImage(currentIndex);
+        });
+
+        $('#prev-btn').on('click', function() {
+            showImage(currentIndex - 1);
+        });
+
+        $('#next-btn').on('click', function() {
+            showImage(currentIndex + 1);
+        });
+    });
+    </script>
+
+</body>
+</html>
