@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluu - Jose Luis Varela - MILA DESIGN</title>
+
+    <link href="https://mk27.com/wp-content/themes/twentytwenty-child/css/hamburgers.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://mk27.com/wp-content/themes/twentytwenty/assets/css/font-inter.css?ver=1.0.0' media='all'/>
+
+    <script src="https://mk27.com/wp-content/themes/twentytwenty-child/js/jquery-3.5.1.min.js"></script>
+
+    <style>
+    @font-face {
+        font-family: 'CustomFont';
+        src: url('fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2') format('woff2');
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+        font-family: 'CustomFont', "Inter", sans-serif;
+        background-color: #000;
+        color: #fff;
+    }
+
+    a { text-decoration: none; color: inherit; }
+
+    .navbar {
+        position: fixed; top: 0; left: 0; right: 0; height: 100px;
+        background-color: #000; display: flex; align-items: center;
+        justify-content: center; z-index: 10000; padding: 0 40px;
+    }
+    .navbar-logo { position: absolute; left: 20px; }
+    .navbar-logo img { width: 55px; height: 55px; object-fit: cover; }
+    .navbar-center { display: flex; gap: 30px; }
+    .navbar-center a { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: #fff; }
+    .navbar-center a:hover { color: #999; }
+
+    .page-wrapper { display: flex; min-height: 100vh; padding-top: 100px; justify-content: center; align-items: flex-start; }
+    .gallery-section { flex: 0 0 60%; max-width: 60%; padding: 30px; }
+    .info-section { flex: 0 0 25%; max-width: 25%; padding: 30px 40px; max-height: 70vh; overflow-y: auto; }
+
+    .img-gallery { position: relative; }
+    .img-gallery-container { width: 100%; height: 70vh; display: flex; align-items: center; justify-content: center; }
+    .img-gallery-container img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+    .project-title { font-size: 2rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 30px; }
+    .project-info { font-size: 1.4rem; line-height: 2; color: #ccc; }
+    .project-info p { margin-bottom: 5px; }
+
+    @media (max-width: 900px) {
+        .page-wrapper { flex-direction: column; padding-top: 70px; }
+        .gallery-section, .info-section { flex: 0 0 100%; max-width: 100%; }
+        .project-title { font-size: 1.5rem; }
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo"><a href="index.html"><img src="images/logo.jpg" alt="MILA DESIGN"></a></div>
+        <div class="navbar-center"><a href="index.html">Home</a><a href="art.html">Art</a><a href="about.html">About</a></div>
+    </nav>
+
+    <div class="page-wrapper">
+        <div class="gallery-section">
+            <div class="img-gallery">
+                <div class="img-gallery-container">
+                    <img src="images/art-background.jpg" alt="Bluu by Jose Luis Varela">
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h1 class="project-title">"Bluu" by Jose Luis Varela</h1>
+            <div class="project-info">
+                <p><strong>Dimensions:</strong> 70" × 60"</p>
+                <p><strong>Year:</strong> 2024</p>
+                <p><strong>Medium:</strong> Acrylic on canvas</p>
+                <p></p>
+                <p>This dynamic abstract composition features bold, gestural brushstrokes in a sophisticated palette of deep blues, blacks, and whites. Varela's expressive technique creates sweeping movements across the canvas, with paint application varying from thick impasto to translucent washes.</p>
+                <p></p>
+                <p>The work evokes turbulence and energy through its dramatic contrasts—rich cobalt and navy blues flow against stark black elements, while luminous white highlights create visual tension and depth. Diagonal and curved movements guide the eye, creating rhythm within the composition.</p>
+                <p></p>
+                <p>At 70" × 60", "Bluu" commands presence and reflects contemporary abstract expressionism, demonstrating Varela's mastery of color relationships and spontaneous, authentic mark-making.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
