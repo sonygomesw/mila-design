@@ -40,6 +40,10 @@ const translations = {
         'art.piece1': 'Untitled',
         'art.piece2': 'Abstract Composition',
         'art.piece3': 'Modern Expression',
+        'art.artist': 'Artist',
+        'art.dimensions': 'Dimensions',
+        'art.year': 'Year',
+        'art.medium': 'Medium',
 
         // Project details - Medellin
         'medellin.title': 'Medellin Poblado',
@@ -116,6 +120,10 @@ const translations = {
         'art.piece1': 'Sin título',
         'art.piece2': 'Composición Abstracta',
         'art.piece3': 'Expresión Moderna',
+        'art.artist': 'Artista',
+        'art.dimensions': 'Dimensiones',
+        'art.year': 'Año',
+        'art.medium': 'Medio',
 
         // Project details - Medellin
         'medellin.title': 'Medellín Poblado',
