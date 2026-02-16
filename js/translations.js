@@ -19,6 +19,7 @@ const translations = {
         'project.blue': 'Blue Diamond 3401',
         'project.william': 'William Island',
         'project.midtown': 'Midtown Miami',
+        'project.mei': 'Mei Miami Beach',
         'project.medellin': 'Medellin Poblado',
         'project.subtitle': 'Project',
         'project.coming': 'Coming Soon',
@@ -76,6 +77,11 @@ const translations = {
         'midtown.location': 'Location: Midtown Miami',
         'midtown.text': 'Mila Design Team\'s latest interior captures a refined blend of calm luxury and practical sophistication. The space unfolds with warm, dark wood tones, streamlined built-ins, and a generous, sunlit panorama that turns every moment into a serene experience. Thoughtful shelving and shoe wardrobes meet at clean, architectural lines, while natural light pours in to accentuate the material palette and the meticulous craftsmanship. The result is a minimalist yet inviting atmosphere that speaks of precision, collaboration, and elevated living.',
 
+        // Mei Miami Beach
+        'mei.title': 'Mei Miami Beach',
+        'mei.location': 'Location: Miami Beach',
+        'mei.text': 'Mila Design Team\'s Mei Miami Beach project captures the essence of coastal sophistication. This stunning residence blends modern aesthetics with the relaxed elegance of beachfront living. Clean lines, curated materials, and a thoughtful balance of natural light create an atmosphere of refined comfort and timeless style.',
+
         // Contact page
         'contact.title': 'Contact',
         'contact.subtitle': 'Let\'s create something beautiful together',
@@ -108,6 +114,7 @@ const translations = {
         'project.blue': 'Blue Diamond 3401',
         'project.william': 'William Island',
         'project.midtown': 'Midtown Miami',
+        'project.mei': 'Mei Miami Beach',
         'project.medellin': 'Medellín Poblado',
         'project.subtitle': 'Proyecto',
         'project.coming': 'Próximamente',
@@ -164,6 +171,11 @@ const translations = {
         'midtown.title': 'Midtown Miami',
         'midtown.location': 'Ubicación: Midtown Miami',
         'midtown.text': 'El más reciente interior del equipo de Mila Design captura una mezcla refinada de lujo tranquilo y sofisticación práctica. El espacio se despliega con tonos de madera oscura cálida, muebles empotrados estilizados y una amplia vista bañada por el sol que convierte cada momento en una experiencia serena. Repisas cuidadosamente diseñadas y closets para zapatos se encuentran en líneas arquitectónicas limpias, mientras la luz natural resalta la paleta de materiales y la meticulosa artesanía. El resultado es una atmósfera minimalista pero acogedora que habla de precisión, colaboración y vida de lujo.',
+
+        // Mei Miami Beach
+        'mei.title': 'Mei Miami Beach',
+        'mei.location': 'Ubicación: Miami Beach',
+        'mei.text': 'El proyecto Mei Miami Beach del equipo de Mila Design captura la esencia de la sofisticación costera. Esta impresionante residencia combina la estética moderna con la elegancia relajada de la vida frente al mar. Líneas limpias, materiales seleccionados y un equilibrio cuidadoso de luz natural crean una atmósfera de confort refinado y estilo atemporal.',
 
         // Contact page
         'contact.title': 'Contacto',
