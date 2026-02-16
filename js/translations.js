@@ -78,7 +78,7 @@ const translations = {
         'nav.home': 'Inicio',
         'nav.interior': 'Diseño de Interiores',
         'nav.art': 'Arte',
-        'nav.about': 'Acerca de',
+        'nav.about': 'Nosotros',
         'nav.contact': 'Contacto',
 
         // Home page
@@ -98,15 +98,15 @@ const translations = {
 
         // About page
         'about.title': 'Mila Design',
-        'about.intro': 'Trascendiendo los interiores convencionales, tejiendo luz, textura y practicidad refinada a través de un lienzo metropolitano.',
+        'about.intro': 'Trascendiendo los interiores convencionales, entretejiendo luz, textura y funcionalidad refinada a través de un lienzo metropolitano.',
         'about.vision.title': 'Visión',
-        'about.vision.text': 'Tres facetas distintas de la vida moderna: retiros privados serenos, espacios urbanos de reunión social, y entornos inmersivos que respiran con la luz del día. Un continuo perfecto desde el santuario hasta el centro social.',
+        'about.vision.text': 'Tres facetas distintas de la vida moderna: refugios privados serenos, espacios urbanos de convivencia social, y ambientes inmersivos que respiran con la luz del día. Un continuo perfecto desde el santuario hasta el centro social.',
         'about.materials.title': 'Materiales',
-        'about.materials.text': 'Texturas naturales—chapas de madera suave, mármol frío, piedra y exuberante vegetación—combinadas con acentos metálicos sutiles. Acristalamiento expansivo e iluminación escultórica esculpen estados de ánimo preservando la intimidad.',
+        'about.materials.text': 'Texturas naturales—maderas suaves, mármol fresco, piedra y vegetación exuberante—combinadas con acentos metálicos sutiles. Ventanales amplios e iluminación escultórica crean ambientes mientras preservan la intimidad.',
         'about.craft.title': 'Artesanía',
-        'about.craft.text': 'Carpintería de precisión con gabinetes sin manijas y elementos flotantes. Transiciones perfectas entre zonas. Detalles cuidadosos—plantas, textiles, acentos curados—agregando calidez sin desorden.',
+        'about.craft.text': 'Carpintería de precisión con gabinetes sin jaladeras y elementos flotantes. Transiciones perfectas entre zonas. Detalles cuidadosos—macetas, textiles, acentos seleccionados—agregando calidez sin saturar.',
         'about.experience.title': 'Experiencia',
-        'about.experience.text': 'Moviéndose fluidamente desde santuarios privados hasta terrazas sociales. La interacción de luz natural, superficies reflectantes y cambios de color evolutivos crea un viaje ambiental desde el amanecer hasta el anochecer.',
+        'about.experience.text': 'Moviéndose fluidamente desde refugios privados hasta terrazas sociales. La interacción de luz natural, superficies reflejantes y cambios de color evolutivos crea un viaje ambiental desde el amanecer hasta el atardecer.',
         'about.signature': 'Miami, Florida',
 
         // Art page
@@ -117,30 +117,30 @@ const translations = {
         // Project details - Medellin
         'medellin.title': 'Medellín Poblado',
         'medellin.subtitle': 'Próximamente',
-        'medellin.intro': 'Esta presentación muestra un plano arquitectónico integral y un concepto de diseño interior de José Luis Varela de Mila Design. El proyecto enfatiza una estética minimalista sofisticada caracterizada por líneas limpias y acabados de alta gama.',
+        'medellin.intro': 'Esta presentación muestra un plano arquitectónico integral y un concepto de diseño interior de José Luis Varela de Mila Design. El proyecto destaca una estética minimalista sofisticada caracterizada por líneas limpias y acabados de primera.',
         'medellin.layout.title': 'Diseño Arquitectónico y Pisos',
-        'medellin.layout.text': 'El plano detalla una residencia de tres dormitorios con un concepto abierto unificado de "Salón/Comedor" y área de cocina. El diseño especifica el uso de microcemento gris claro para el piso en todas partes, proporcionando una base moderna y sin costuras.',
+        'medellin.layout.text': 'El plano detalla una residencia de tres recámaras con un concepto abierto unificado de "Sala/Comedor" y área de cocina. El diseño especifica el uso de microcemento gris claro para el piso en todo el espacio, proporcionando una base moderna y uniforme.',
         'medellin.design.title': 'Elementos de Diseño Interior',
         'medellin.design.text': 'La estética se define por varias características minimalistas clave:',
-        'medellin.design.lighting': 'Iluminación y Techos:',
-        'medellin.design.lighting.text': 'El diseño incorpora techos flotantes con iluminación LED integrada (Techo flotante con LED) para crear un brillo ambiental suave en áreas como el pasillo.',
+        'medellin.design.lighting': 'Iluminación y Plafones:',
+        'medellin.design.lighting.text': 'El diseño incorpora plafones flotantes con iluminación LED integrada para crear un ambiente suave en áreas como el pasillo.',
         'medellin.design.doors': 'Puertas y Herrajes:',
-        'medellin.design.doors.text': 'Para mantener el perfil minimalista, el plan utiliza puertas sin moldura que quedan al ras con las paredes.',
+        'medellin.design.doors.text': 'Para mantener el perfil minimalista, el plan utiliza puertas sin moldura que quedan a ras con las paredes.',
         'medellin.design.kitchen': 'Cocina y Lavandería:',
-        'medellin.design.kitchen.text': 'La cocina está equipada con electrodomésticos integrados premium, incluyendo hornos Miele y un elegante refrigerador oculto detrás de gabinetes oscuros. El área de lavandería (ZONA de ropa) utiliza puertas corredizas para ahorrar espacio.',
+        'medellin.design.kitchen.text': 'La cocina está equipada con electrodomésticos integrados de lujo, incluyendo hornos Miele y un elegante refrigerador oculto detrás de gabinetes oscuros. El área de lavado utiliza puertas corredizas para ahorrar espacio.',
         'medellin.design.dining': 'Comedor y Sala:',
-        'medellin.design.dining.text': 'El espacio de la sala cuenta con paneles de madera cálida, mientras que el área del comedor está anclada por una impresionante mesa grande de mármol combinada con accesorios de iluminación contemporáneos.',
+        'medellin.design.dining.text': 'El espacio de la sala cuenta con paneles de madera cálida, mientras que el área del comedor está anclada por una impresionante mesa grande de mármol combinada con lámparas contemporáneas.',
 
         // Midtown Miami
         'midtown.title': 'Midtown Miami',
         'midtown.location': 'Ubicación: Midtown Miami',
-        'midtown.text': 'El último interior del equipo de Mila Design captura una mezcla refinada de lujo tranquilo y sofisticación práctica. El espacio se despliega con tonos de madera oscura cálida, muebles empotrados estilizados y un generoso panorama bañado por el sol que convierte cada momento en una experiencia serena. Estanterías cuidadosamente diseñadas y armarios para zapatos se encuentran en líneas arquitectónicas limpias, mientras la luz natural se vierte para acentuar la paleta de materiales y la meticulosa artesanía. El resultado es una atmósfera minimalista pero acogedora que habla de precisión, colaboración y vida elevada.',
+        'midtown.text': 'El más reciente interior del equipo de Mila Design captura una mezcla refinada de lujo tranquilo y sofisticación práctica. El espacio se despliega con tonos de madera oscura cálida, muebles empotrados estilizados y una amplia vista bañada por el sol que convierte cada momento en una experiencia serena. Repisas cuidadosamente diseñadas y closets para zapatos se encuentran en líneas arquitectónicas limpias, mientras la luz natural resalta la paleta de materiales y la meticulosa artesanía. El resultado es una atmósfera minimalista pero acogedora que habla de precisión, colaboración y vida de lujo.',
 
         // Contact page
         'contact.title': 'Contacto',
-        'contact.subtitle': 'Creemos algo hermoso juntos',
-        'contact.email': 'Correo Electrónico *',
-        'contact.phone': 'Número de Teléfono',
+        'contact.subtitle': 'Vamos a crear algo hermoso juntos',
+        'contact.email': 'Email *',
+        'contact.phone': 'Teléfono',
         'contact.subject': 'Asunto *',
         'contact.message': 'Mensaje',
         'contact.send': 'Enviar Mensaje',
