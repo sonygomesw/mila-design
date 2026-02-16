@@ -71,6 +71,9 @@ const translations = {
         'contact.subject': 'Subject *',
         'contact.message': 'Message',
         'contact.send': 'Send Message',
+        'contact.sending': 'Sending...',
+        'contact.success': 'Thank you! Your message has been sent successfully. We will get back to you soon.',
+        'contact.error': 'Oops! Something went wrong. Please try again or contact us directly.',
         'contact.followus': 'Follow Us',
     },
     es: {
@@ -144,6 +147,9 @@ const translations = {
         'contact.subject': 'Asunto *',
         'contact.message': 'Mensaje',
         'contact.send': 'Enviar Mensaje',
+        'contact.sending': 'Enviando...',
+        'contact.success': '¡Gracias! Tu mensaje ha sido enviado exitosamente. Te contactaremos pronto.',
+        'contact.error': '¡Ups! Algo salió mal. Por favor intenta de nuevo o contáctanos directamente.',
         'contact.followus': 'Síguenos',
     }
 };
