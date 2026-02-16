@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midtown Miami - MILA DESIGN</title>
+    <title>Medellin Poblado - MILA DESIGN</title>
 
     <link href="https://mk27.com/wp-content/themes/twentytwenty-child/css/hamburgers.min.css" rel="stylesheet">
     <link rel='stylesheet' href='https://mk27.com/wp-content/themes/twentytwenty/assets/css/font-inter.css?ver=1.0.0' media='all'/>
@@ -55,12 +55,10 @@
     .navbar-logo {
         position: absolute;
         left: 20px;
-    }
-
-    .navbar-logo img {
-        width: 55px;
-        height: 55px;
-        object-fit: cover;
+        font-size: 1.2rem;
+        font-weight: 300;
+        letter-spacing: 0.3em;
+        color: #fff;
     }
 
     .navbar-center {
@@ -173,71 +171,55 @@
         object-fit: contain;
     }
 
-    .gallery-arrows {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 10px;
-        pointer-events: none;
-    }
-
-    .gallery-arrow {
-        pointer-events: auto;
-        background: rgba(255,255,255,0.2);
-        border: none;
-        color: #fff;
-        font-size: 2rem;
-        padding: 10px 15px;
-        cursor: pointer;
-        transition: background 0.3s;
-    }
-
-    .gallery-arrow:hover {
-        background: rgba(255,255,255,0.4);
-    }
-
-    .img-gallery-nav {
-        margin-top: 15px;
-        display: flex;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-
-    .img-gallery-thumb {
-        width: 50px;
-        height: 50px;
-        background-size: cover;
-        background-position: center;
-        cursor: pointer;
-        opacity: 0.6;
-        transition: opacity 0.3s;
-    }
-
-    .img-gallery-thumb:hover,
-    .img-gallery-thumb.active {
-        opacity: 1;
-    }
-
     /* Info */
     .project-title {
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 0.15em;
         text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .project-subtitle {
+        font-size: 0.9rem;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #999;
         margin-bottom: 30px;
     }
 
     .project-info {
-        font-size: 1.4rem;
-        line-height: 2;
+        font-size: 0.95rem;
+        line-height: 1.8;
         color: #ccc;
     }
 
     .project-info p {
-        margin-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+    .project-info strong {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .project-info h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 25px;
+        margin-bottom: 12px;
+        letter-spacing: 0.05em;
+    }
+
+    .project-info ul {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    .project-info ul li {
+        margin-bottom: 8px;
     }
 
     /* Responsive */
@@ -255,6 +237,7 @@
 
         .info-section {
             padding: 30px 20px;
+            max-height: none;
         }
 
         .project-title {
@@ -309,67 +292,31 @@
         <div class="gallery-section">
             <div class="img-gallery">
                 <div class="img-gallery-container">
-                    <img id="main-image" src="images/midtown-miami/1.jpg" alt="Midtown Miami">
+                    <img id="main-image" src="images/medellin-poblado.jpg" alt="Medellin Poblado">
                 </div>
-                <div class="gallery-arrows">
-                    <button class="gallery-arrow" id="prev-btn">&#10094;</button>
-                    <button class="gallery-arrow" id="next-btn">&#10095;</button>
-                </div>
-            </div>
-            <div class="img-gallery-nav">
-                <div class="img-gallery-thumb active" style="background-image: url(images/midtown-miami/1.jpg);" data-img="images/midtown-miami/1.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/2.jpg);" data-img="images/midtown-miami/2.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/3.jpg);" data-img="images/midtown-miami/3.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/4.jpg);" data-img="images/midtown-miami/4.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/5.jpg);" data-img="images/midtown-miami/5.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/6.jpg);" data-img="images/midtown-miami/6.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/7.jpg);" data-img="images/midtown-miami/7.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/8.jpg);" data-img="images/midtown-miami/8.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/9.jpg);" data-img="images/midtown-miami/9.jpg"></div>
-                <div class="img-gallery-thumb" style="background-image: url(images/midtown-miami/10.jpg);" data-img="images/midtown-miami/10.jpg"></div>
             </div>
         </div>
 
         <div class="info-section">
-            <h1 class="project-title" data-translate="midtown.title">Midtown Miami</h1>
+            <h1 class="project-title" data-translate="medellin.title">Medellin Poblado</h1>
+            <p class="project-subtitle" data-translate="medellin.subtitle">Coming Soon</p>
             <div class="project-info">
-                <p><strong data-translate="midtown.location">Location: Midtown Miami</strong></p>
-                <p></p>
-                <p data-translate="midtown.text">Mila Design Team's latest interior captures a refined blend of calm luxury and practical sophistication. The space unfolds with warm, dark wood tones, streamlined built-ins, and a generous, sunlit panorama that turns every moment into a serene experience. Thoughtful shelving and shoe wardrobes meet at clean, architectural lines, while natural light pours in to accentuate the material palette and the meticulous craftsmanship. The result is a minimalist yet inviting atmosphere that speaks of precision, collaboration, and elevated living.</p>
+                <p data-translate="medellin.intro">This presentation showcases a comprehensive architectural floor plan and interior design concept by Jose Luis Varela of Mila Design. The project emphasizes a sophisticated, minimalist aesthetic characterized by clean lines and high-end finishes.</p>
+
+                <h3 data-translate="medellin.layout.title">Architectural Layout and Flooring</h3>
+                <p data-translate="medellin.layout.text">The floor plan details a three-bedroom residence featuring a unified open-concept "Salón/Comedor" (Living/Dining) and kitchen area. The design specifies the use of light gray micro-cement (Micro cemento gris claro) for the flooring throughout, providing a seamless and modern foundation.</p>
+
+                <h3 data-translate="medellin.design.title">Interior Design Elements</h3>
+                <p data-translate="medellin.design.text">The aesthetic is defined by several key minimalist features:</p>
+                <ul>
+                    <li><strong data-translate="medellin.design.lighting">Lighting and Ceilings:</strong> <span data-translate="medellin.design.lighting.text">The design incorporates floating ceilings with integrated LED lighting (Techo flotante con LED) to create a soft, ambient glow in areas like the hallway.</span></li>
+                    <li><strong data-translate="medellin.design.doors">Doors and Hardware:</strong> <span data-translate="medellin.design.doors.text">To maintain the minimalist profile, the plan uses moldless doors (Puertas sin moldura) that sit flush with the walls.</span></li>
+                    <li><strong data-translate="medellin.design.kitchen">Kitchen and Laundry:</strong> <span data-translate="medellin.design.kitchen.text">The kitchen is equipped with premium integrated appliances, including Miele ovens and a sleek refrigerator hidden behind dark cabinetry. The laundry area (ZONA de ropa) utilizes space-saving pocket doors.</span></li>
+                    <li><strong data-translate="medellin.design.dining">Dining and Living:</strong> <span data-translate="medellin.design.dining.text">The living space features warm wood paneling, while the dining area is anchored by a striking large marble table paired with contemporary lighting fixtures.</span></li>
+                </ul>
             </div>
         </div>
     </div>
-
-    <script>
-    $(document).ready(function() {
-        var currentIndex = 0;
-        var thumbs = $('.img-gallery-thumb');
-        var total = thumbs.length;
-
-        function showImage(index) {
-            if (index < 0) index = total - 1;
-            if (index >= total) index = 0;
-            currentIndex = index;
-            var imgSrc = thumbs.eq(index).data('img');
-            $('#main-image').attr('src', imgSrc);
-            thumbs.removeClass('active');
-            thumbs.eq(index).addClass('active');
-        }
-
-        $('.img-gallery-thumb').on('click', function() {
-            currentIndex = thumbs.index(this);
-            showImage(currentIndex);
-        });
-
-        $('#prev-btn').on('click', function() {
-            showImage(currentIndex - 1);
-        });
-
-        $('#next-btn').on('click', function() {
-            showImage(currentIndex + 1);
-        });
-    });
-    </script>
 
 </body>
 </html>
