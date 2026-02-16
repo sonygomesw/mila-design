@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "MILA DESIGN",
+  "alternateName": "Mila Design Studio",
+  "description": "Premier luxury interior design studio in Miami specializing in sophisticated residential projects. Led by Jose Luis Varela, we create elegant, minimalist spaces that blend functionality and innovation.",
+  "founder": {
+    "@type": "Person",
+    "name": "Jose Luis Varela",
+    "jobTitle": "Interior Designer & Founder",
+    "sameAs": [
+      "https://www.instagram.com/miladesign",
+      "https://pin.it/6gyOqwYXh",
+      "https://www.tiktok.com/@mila.design70"
+    ]
+  },
+  "url": "https://mila-design-kf8mkmnjz-cliptok.vercel.app",
+  "logo": "https://mila-design-kf8mkmnjz-cliptok.vercel.app/images/logo.jpg",
+  "image": "https://mila-design-kf8mkmnjz-cliptok.vercel.app/images/riviera.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Miami",
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "25.7617",
+    "longitude": "-80.1918"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Miami"
+    },
+    {
+      "@type": "City",
+      "name": "Miami Beach"
+    },
+    {
+      "@type": "City",
+      "name": "Boca Raton"
+    },
+    {
+      "@type": "City",
+      "name": "Fort Lauderdale"
+    },
+    {
+      "@type": "State",
+      "name": "Florida"
+    }
+  ],
+  "priceRange": "$$$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.instagram.com/miladesign",
+    "https://pin.it/6gyOqwYXh",
+    "https://www.tiktok.com/@mila.design70"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Interior Design Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Luxury Residential Interior Design",
+          "description": "Complete interior design services for luxury residences"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Contemporary Interior Design",
+          "description": "Modern and contemporary design solutions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Minimalist Design",
+          "description": "Sophisticated minimalist interior design"
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "ratingCount": "47"
+  }
+}

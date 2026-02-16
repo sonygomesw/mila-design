@@ -2,8 +2,36 @@
 <html class="no-js" lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Coming soon: MILA DESIGN's Medellin Poblado project featuring sophisticated minimalist aesthetics, floating LED ceilings, and integrated Miele appliances.">
+    
+    <meta name="keywords" content="Medellin interior design, minimalist design, Colombian luxury homes, modern architecture Medellin, Jose Luis Varela Colombia">
+    <meta name="author" content="Jose Luis Varela - MILA DESIGN">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://mila-design-kf8mkmnjz-cliptok.vercel.app/medellin-poblado.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mila-design-kf8mkmnjz-cliptok.vercel.app/medellin-poblado.html">
+    <meta property="og:title" content="Medellin Poblado Project - Minimalist Interior Design | MILA DESIGN">
+    <meta property="og:description" content="Coming soon: MILA DESIGN's Medellin Poblado project featuring sophisticated minimalist aesthetics, floating LED ceilings, and integrated Miele appliances.">
+    <meta property="og:image" content="https://mila-design-kf8mkmnjz-cliptok.vercel.app/images/medellin-poblado.jpg">
+    <meta property="og:site_name" content="MILA DESIGN">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mila-design-kf8mkmnjz-cliptok.vercel.app/medellin-poblado.html">
+    <meta name="twitter:title" content="Medellin Poblado Project - Minimalist Interior Design | MILA DESIGN">
+    <meta name="twitter:description" content="Coming soon: MILA DESIGN's Medellin Poblado project featuring sophisticated minimalist aesthetics, floating LED ceilings, and integrated Miele appliances.">
+    <meta name="twitter:image" content="https://mila-design-kf8mkmnjz-cliptok.vercel.app/images/medellin-poblado.jpg">
+
+    <!-- Additional SEO -->
+    <meta name="geo.region" content="US-FL">
+    <meta name="geo.placename" content="Miami">
+    <meta name="geo.position" content="25.7617;-80.1918">
+    <meta name="ICBM" content="25.7617, -80.1918">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medellin Poblado - MILA DESIGN</title>
+    <title>Medellin Poblado Project - Minimalist Interior Design | MILA DESIGN</title>
 
     <link href="https://mk27.com/wp-content/themes/twentytwenty-child/css/hamburgers.min.css" rel="stylesheet">
     <link rel='stylesheet' href='https://mk27.com/wp-content/themes/twentytwenty/assets/css/font-inter.css?ver=1.0.0' media='all'/>
@@ -128,6 +156,76 @@
         color: #fff;
     }
 
+    /* Hamburger Menu */
+    .hamburger {
+        display: none;
+        position: absolute;
+        right: 20px;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        z-index: 10001;
+    }
+
+    .hamburger span {
+        width: 25px;
+        height: 2px;
+        background-color: #fff;
+        transition: all 0.3s ease;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+        z-index: 9999;
+        overflow-y: auto;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
+
+    .mobile-menu a {
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 15px 0;
+        border-bottom: 1px solid #333;
+    }
+
+    .mobile-menu .social-icons {
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .mobile-menu .navbar-lang {
+        border: none;
+        padding-left: 0;
+        justify-content: center;
+    }
+
     /* Page layout */
     .page-wrapper {
         display: flex;
@@ -224,6 +322,19 @@
 
     /* Responsive */
     @media (max-width: 900px) {
+        .navbar {
+            padding: 0 20px;
+        }
+
+        .navbar-center,
+        .navbar-right {
+            display: none;
+        }
+
+        .hamburger {
+            display: flex;
+        }
+
         .page-wrapper {
             flex-direction: column;
             padding-top: 70px;

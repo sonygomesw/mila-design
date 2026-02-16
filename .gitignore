@@ -35,3 +35,4 @@ images/the_thinker_by_auguste_rodin.glb
 __pycache__/
 *.py[cod]
 *$py.class
+.vercel

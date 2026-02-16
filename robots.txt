@@ -1,0 +1,18 @@
+# Robots.txt for MILA DESIGN
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://mila-design-kf8mkmnjz-cliptok.vercel.app/sitemap.xml
+
+# Block access to system files
+Disallow: /js/
+Disallow: /css/
+Disallow: /.git
+Disallow: /.vercel
+Disallow: /.DS_Store
+
+# Optimize crawl budget
+Crawl-delay: 0
