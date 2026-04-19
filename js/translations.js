@@ -21,7 +21,7 @@ const translations = {
         'project.midtown': 'Midtown Miami',
         'project.mei': 'Mei Miami Beach',
         'project.medellin': 'Medellin Poblado',
-        'project.warm': 'Warm Modern',
+        'project.warm': 'Miami Beach Lenox Avenue',
         'project.subtitle': 'Project',
         'project.coming': 'Coming Soon',
 
@@ -112,6 +112,28 @@ const translations = {
         'contact.success': 'Thank you! Your message has been sent successfully. We will get back to you soon.',
         'contact.error': 'Oops! Something went wrong. Please try again or contact us directly.',
         'contact.followus': 'Follow Us',
+
+        // Warm Modern (Miami Beach Lenox Avenue)
+        'warm.location': 'location > Miami Beach, Florida',
+        'warm.design': 'interior design > MILA DESIGN',
+        'warm.type': 'project type > Residential',
+        'warm.intro': 'Nestled in the iconic Art Deco neighborhood of Miami Beach, this residence blends timeless glamour with a contemporary warmth that welcomes you home the moment you step inside. The design honors the area\'s architectural heritage while embracing a sophisticated, modern sensibility that feels both luxurious and approachable.',
+        'warm.palette.title': 'Palette and Atmosphere',
+        'warm.palette.color': '• Sun-Kissed Color Story: Creamy beiges, warm taupes, and natural textures create an inviting, tranquil backdrop throughout the residence.',
+        'warm.palette.light': '• Ambient Light Play: Light plays across curves and edges, bathing every surface in a gentle glow that shifts beautifully from day to evening.',
+        'warm.spatial.title': 'Spatial Language and Layout',
+        'warm.spatial.open': '• Open-Plan Living: A fluid living and dining zone centers around sculptural forms, encouraging effortless socialization and relaxed everyday living.',
+        'warm.spatial.gallery': '• Gallery-Like Calm: Wide sightlines and seamless transitions between rooms evoke serenity, punctuated by carefully placed moments of greenery and artful sculpture.',
+        'warm.materials.title': 'Materials and Textures',
+        'warm.materials.fabrics': '• Tactile Fabrics: Plush earthy neutrals contrast with smooth, sculptural furniture bases, echoing the soft geometry of the era while ensuring modern comfort.',
+        'warm.materials.warmth': '• Natural Warmth: Wood tones and subtle stone textures add depth and a tactile richness that invites lingering.',
+        'warm.lighting.title': 'Lighting Design',
+        'warm.lighting.signature': '• Signature Installation: A contemporary crown jewel weaves light into the space with elegant, looping lines that give the room a dynamic, kinetic presence.',
+        'warm.lighting.layered': '• Layered Ambiance: Supplementary soft lamps and hidden fixtures balance the scene, ensuring every nook feels intimate yet bright.',
+        'warm.furnishings.title': 'Furnishings and Decor',
+        'warm.furnishings.centerpiece': '• Convivial Centerpiece: Curved, podium-style seating surrounding a generous dining table provides the perfect setting for gatherings.',
+        'warm.furnishings.accents': '• Minimalist Accents: Sleek vases, a sculptural tree, and restrained art enhance the space without competing with its architectural voice.',
+        'warm.conclusion': 'The warmth and organic shapes echo the sun-drenched coastlines and tropical landscapes, while crisp lines and glossy finishes nod to the city\'s glamorous Deco heritage. The result is a sophisticated, welcoming interior that feels unmistakably Miami: refined, luminous, and effortlessly chic.',
     },
     es: {
         // Navbar
@@ -134,7 +156,7 @@ const translations = {
         'project.midtown': 'Midtown Miami',
         'project.mei': 'Mei Miami Beach',
         'project.medellin': 'Medellín Poblado',
-        'project.warm': 'Warm Modern',
+        'project.warm': 'Miami Beach Lenox Avenue',
         'project.subtitle': 'Proyecto',
         'project.coming': 'Próximamente',
 
@@ -225,6 +247,28 @@ const translations = {
         'contact.success': '¡Gracias! Tu mensaje ha sido enviado exitosamente. Te contactaremos pronto.',
         'contact.error': '¡Ups! Algo salió mal. Por favor intenta de nuevo o contáctanos directamente.',
         'contact.followus': 'Síguenos',
+
+        // Warm Modern (Miami Beach Lenox Avenue)
+        'warm.location': 'ubicación > Miami Beach, Florida',
+        'warm.design': 'diseño de interiores > MILA DESIGN',
+        'warm.type': 'tipo de proyecto > Residencial',
+        'warm.intro': 'En el corazón del emblemático distrito Art Deco de Miami Beach, esta residencia une el glamour intemporal con una calidez contemporánea que envuelve desde el primer paso. El diseño rinde tributo al legado arquitectónico del vecindario y, al mismo tiempo, abraza una sensibilidad moderna donde el lujo convive con la naturalidad.',
+        'warm.palette.title': 'Paleta y Atmósfera',
+        'warm.palette.color': '• Narrativa Cromática Solar: Beiges cremosos, taupes envolventes y texturas orgánicas componen un telón de fondo sereno y acogedor que recorre cada estancia.',
+        'warm.palette.light': '• Diálogo de Luz: La luz natural acaricia curvas y aristas, bañando las superficies en un resplandor cálido que evoluciona con gracia del amanecer al atardecer.',
+        'warm.spatial.title': 'Lenguaje Espacial y Distribución',
+        'warm.spatial.open': '• Planta Abierta: Una zona de estar y comedor fluida se articula en torno a formas escultóricas, propiciando la convivencia espontánea y el disfrute cotidiano.',
+        'warm.spatial.gallery': '• Serenidad de Galería: Amplias perspectivas y transiciones sin costuras entre ambientes evocan calma, puntuadas por toques precisos de vegetación y escultura.',
+        'warm.materials.title': 'Materiales y Texturas',
+        'warm.materials.fabrics': '• Tejidos Sensoriales: Neutros terrosos y envolventes contrastan con bases de mobiliario esculturales de acabado pulido, evocando la geometría suave de la época sin renunciar al confort contemporáneo.',
+        'warm.materials.warmth': '• Calidez Orgánica: Maderas nobles y sutiles vetas de piedra aportan profundidad y una riqueza táctil que invita a demorarse.',
+        'warm.lighting.title': 'Diseño de Iluminación',
+        'warm.lighting.signature': '• Pieza Insignia: Una luminaria contemporánea traza líneas elegantes y envolventes que otorgan al espacio una presencia dinámica y cinética.',
+        'warm.lighting.layered': '• Ambientación por Capas: Lámparas de acento y luminarias ocultas equilibran la escena, logrando que cada rincón resulte íntimo y luminoso a la vez.',
+        'warm.furnishings.title': 'Mobiliario y Decoración',
+        'warm.furnishings.centerpiece': '• Centro de Convivencia: Asientos curvos estilo podio rodean una generosa mesa de comedor, creando el escenario perfecto para reuniones memorables.',
+        'warm.furnishings.accents': '• Acentos Minimalistas: Jarrones depurados, un árbol escultural y obras de arte contenidas realzan el espacio sin competir con su voz arquitectónica.',
+        'warm.conclusion': 'Las formas orgánicas y la calidez envolvente evocan las costas bañadas por el sol y los paisajes tropicales, mientras las líneas puras y los acabados brillantes rinden homenaje al glamuroso legado Deco de la ciudad. El resultado es un interior sofisticado y acogedor, inconfundiblemente Miami: refinado, luminoso y elegante sin esfuerzo.',
     }
 };
 
