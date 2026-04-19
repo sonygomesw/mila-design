@@ -21,6 +21,7 @@ const translations = {
         'project.midtown': 'Midtown Miami',
         'project.mei': 'Mei Miami Beach',
         'project.medellin': 'Medellin Poblado',
+        'project.warm': 'Warm Modern',
         'project.subtitle': 'Project',
         'project.coming': 'Coming Soon',
 
@@ -133,6 +134,7 @@ const translations = {
         'project.midtown': 'Midtown Miami',
         'project.mei': 'Mei Miami Beach',
         'project.medellin': 'Medellín Poblado',
+        'project.warm': 'Warm Modern',
         'project.subtitle': 'Proyecto',
         'project.coming': 'Próximamente',
 
